@@ -20,7 +20,7 @@ pipeline{
                   sh 'mvn compile'
 	      }
           }
-          stage('CodeReview'){
+          stage('Code To Review'){
 		  
               steps{
 		    
